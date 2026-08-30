@@ -58,6 +58,7 @@ body {
   width: 150px;
   height: auto;
   display: block;
+	transform: translateX(5px);
 }
 
 .value {
@@ -76,7 +77,7 @@ body {
   width: 100%;
   padding: 0 1rem;
   color: #F2F0EA;
-  font-size: clamp(2.6rem, 8vw, 2.5rem);
+  font-size: clamp(2.5rem, 8vw, 2.5rem);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
