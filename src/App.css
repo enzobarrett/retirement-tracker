@@ -39,6 +39,8 @@ body {
   width: 150px;
   position: relative;
   transition: height 0.5s ease;
+  animation: bar-in 1s ease-out;
+  transform-origin: bottom;
 }
 
 .bar-top {
@@ -49,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: value-in 0.8s ease-out 0.5s both;
 }
 
 .character {
@@ -58,7 +61,7 @@ body {
 }
 
 .value {
-	color: #F2F0EA;
+  color: #F2F0EA;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-size: 3rem;
@@ -73,8 +76,43 @@ body {
   width: 100%;
   padding: 0 1rem;
   color: #F2F0EA;
-  font-size: clamp(2.5rem, 8vw, 2.5rem);
+  font-size: clamp(2.6rem, 8vw, 2.5rem);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
+  animation: title-in 0.8s ease-out;
+}
+
+@keyframes title-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bar-in {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes value-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
 }
