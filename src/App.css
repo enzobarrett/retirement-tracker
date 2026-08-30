@@ -68,12 +68,12 @@ body {
 
 .title {
   position: absolute;
-  top: 1.5rem;
+  top: 1rem;
   left: 0;
   width: 100%;
   padding: 0 1rem;
   color: #F2F0EA;
-  font-size: clamp(2.25rem, 8vw, 2.5rem);
+  font-size: clamp(2.5rem, 8vw, 2.5rem);
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
