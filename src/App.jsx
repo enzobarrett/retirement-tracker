@@ -3,7 +3,7 @@ import "./App.css";
 const accounts = [
   {
     name: "Giulio",
-    value: 3000,
+    value: 2692,
     color: "#C05C5C",
     image: "/Giulio.png",
   },
