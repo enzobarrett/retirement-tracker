@@ -9,7 +9,7 @@ const accounts = [
   },
   {
     name: "Enzo",
-    value: 761,
+    value: 1078,
     color: "#4FAD63",
     image: "/Enzo.png",
   },
