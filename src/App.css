@@ -83,7 +83,7 @@ body {
   width: 100%;
   padding: 0 1rem;
   color: #F2F0EA;
-  font-size: clamp(3rem, 9vw, 4rem);
+  font-size: clamp(2.5rem,7vw,3.5rem);
   font-weight: 700;
   text-align: center;
   white-space: nowrap;
