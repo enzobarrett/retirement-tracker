@@ -83,11 +83,18 @@ body {
   width: 100%;
   padding: 0 1rem;
   color: #F2F0EA;
-  font-size: clamp(2.55rem, 8vw, 2.5rem);
-  font-weight: bold;
+  font-size: clamp(3rem, 9vw, 4rem);
+  font-weight: 700;
   text-align: center;
   white-space: nowrap;
   animation: title-in 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: clamp(2.4rem, 9.5vw, 3.25rem);
+    font-weight: 700;
+  }
 }
 
 
