@@ -92,8 +92,8 @@ body {
 
 @media (max-width: 768px) {
   .title {
-    font-size: clamp(2.6rem, 9.8vw, 3.45rem);
-    font-weight: 700;
+    white-space: nowrap;
+    font-size: clamp(1.5rem, 8vw, 3rem);
   }
 }
 
